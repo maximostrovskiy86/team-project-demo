@@ -21,13 +21,16 @@
 
 .main {
   display: flex;
+  font-size: 19px;
 }
 
 aside {
   flex-basis: 33%;
+  background: thistle;
 }
 
 .container {
   flex-basis: 66%;
+  background: violet;
 }
 
