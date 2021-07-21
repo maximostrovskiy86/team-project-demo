@@ -1,0 +1,36 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './example';
+
+.header {
+  height: 100px;
+  background: teal;
+}
+
+.footer {
+  background: #188CE8;
+  height: 100px;
+  color: blue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  font-size: 19px;
+}
+
+aside {
+  flex-basis: 33%;
+  background: #D8BFD8FF;
+}
+
+.container {
+  flex-basis: 66%;
+  background: #EE82EEFF;
+}
+
