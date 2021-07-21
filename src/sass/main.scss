@@ -15,4 +15,19 @@
   background: #188CE8;
   height: 100px;
   color: blue;
+  font-size: 18px;
+  font-weight: 700;
 }
+
+.main {
+  display: flex;
+}
+
+aside {
+  flex-basis: 33%;
+}
+
+.container {
+  flex-basis: 66%;
+}
+
